@@ -1,0 +1,45 @@
+.app {
+  background-color: #F5F6F8;
+}
+
+.container {
+  position: relative;
+  top: 70px;
+}
+
+.card {
+  width: 90%;
+  min-height: 150px;
+  margin: 0 auto 20px auto;
+  padding: 25px 15px;
+  background-color: #FFF;
+  border-radius: 5px;
+  box-sizing: border-box;
+  box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.1);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.card--green {
+  border: 1px #1F8532 solid;
+  border-right-width: 50px;
+}
+
+.card--orange {
+  border: 1px #FF9A31 solid;
+  border-right-width: 50px;
+}
+
+.card__title {
+  margin: 10px 0 20px 0;
+  word-wrap: break-word;
+}
+
+.card__body {
+  margin: 0;
+  word-wrap: break-word;
+}
+
+.card__link {
+  text-decoration: none;
+  color: #538fef;
+}
